@@ -76,7 +76,7 @@
 		<!-- <property name="port" value="587" /> -->
 		<property name="username" value="AKIAY46MH4ZPTUSBNVM3" />
 		<property name="password"
-			value="BJSTZ16EduB6X3H+SrKbII/4Ayrw06/iur3bi1ysLNo0" />
+			value="BJSTZ16EduB6X3H" />
 		<property name="defaultEncoding" value="UTF-8" />
 		<property name="javaMailProperties">
 			<props>
