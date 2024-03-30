@@ -1,0 +1,195 @@
+
+<html>
+<head>
+<style type="text/css">
+.vm-container {
+	margin: 10px;
+}
+.vm-page-content {
+	border: 1px solid #2a3f54;
+	height: 83%;
+	color: #000;
+}
+
+.vm-page-content .head {
+	background-color: #2a3f54;
+	padding: 10px;
+	color: #FFFFFF;
+}
+
+.head .images {
+margin-left:5px;
+}
+
+.vm-page-content .body {
+	padding: 10px;
+	font-size: 12px;
+}
+.resp{
+margin: 5px 0px;
+}
+.resp h5 {
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.body .cont p {
+	margin: 0 0 8px;
+	text-align: justify;
+	line-height: 20px;
+}
+
+.sub-title {
+	font-size: 13px;
+	font-weight: 600;
+	line-height: 30px;
+}
+
+.sub-mrg-content {
+	margin-top: 3px;
+	margin-bottom: 3px;
+	padding-left: 30px;
+}
+.sub-mrg-content li{
+line-height: 25px;
+}
+.btn{
+padding: 10px;
+background:  #2a3f54;
+color: #ffffff;
+margin: 5px;
+text-align: center;
+border-radius:3px;
+}
+.footer {
+	padding: 10px;
+	background: #fff;
+}
+.footer-reg{
+font-size: 12px;
+	color: #000;
+	font-weight: 600;
+	line-height: 20px;
+}
+.footerBottom{
+
+    font-size: 12px;
+    background-color: #2a3f54;
+	padding: 16px;
+	color: #FFFFFF;
+    text-align:center;
+}
+.footer .quas {
+	margin-top: 20px;
+	font-size: 12px;
+}
+
+.min-header{
+width:100%;
+height:60%;
+background-color:#676f7c;
+}
+.slider-padding{
+padding-top:4%;
+padding-bottom:20%;
+
+text-align:center;
+color:white;
+font-weight:800;
+font-size: 40px;
+font-family: "Segoe UI", "wf_segoe-ui_normal", "Arial", sans-serif;
+}
+ul {
+  list-style-type: none;
+  text-decoration: none;
+}
+.slider-ul{
+padding:0%;
+}
+.opening-slide{
+
+border: 1px solid #e1e1e1;
+text-align:center;
+font-weight:800;
+font-size: 16px;
+font-family: "Segoe UI", "wf_segoe-ui_normal", "Arial", sans-serif;
+}
+
+.company-logo{
+width:50px;
+height:30%;
+border:0px solid #e1e1e1;
+text-align:left;
+}
+.title-align{
+padding-bottom:4px;
+}
+.img-align{
+border:2px solid #e1e1e1;
+}
+a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    border:1px solide #e1e1e1;
+}
+
+td{
+width:0%;
+}
+
+td, th {
+    border: 0px solid #dddddd;
+    padding-left: 7px;
+    padding-bottom:5px;
+    padding-right:3px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+</style>
+</head>
+<body>
+<div class="vm-container">
+	<div class="vm-page-content" style="font-family: "Segoe UI", "wf_segoe-ui_normal", "Arial", sans-serif;">
+	    <div class="head">
+		JP Technology Solutions
+		</div>
+    <div class="body">
+        <div class="resp">
+				<h5>Dear ${userName},</h5>
+				
+			</div>
+			<div class="cont">
+						
+                    <p><b>Your Task Details,</p></b>
+                    <ul class="sub-mrg-content" style="list-style-type: circle;">
+      <li><b>Your Email:</b> ${emailId}</li>                
+ <li><b>Project Name:</b> ${projectName}</li> 
+ <li><b>Task Name: </b> ${taskName}</li>                  
+<li><b>Start Date:</b>${startDate}</li>                   
+<li><b>End Date :</b> ${endDate}</li>
+  </div> 
+  </div>                  		
+		<div class="footer">
+			<div class="footer-reg">
+				Warm Regards<br /> Todoapp.com
+			</div>
+			
+		</div>
+         <div class="footerBottom">
+                 Copyright @ 2020 JP Technology Solutions PVT Ltd. All Rights Reserved
+					  
+		</div>
+	</div>
+</div>
+</body></html>
+
